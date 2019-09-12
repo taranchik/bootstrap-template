@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    font-size: 20px;
+}
+
+header{
+    min-height: 100vh;
+    background-image: url("./img/HeaderBG.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header #hamburger-menu{
+    padding-left: 5px;
+}
+
+header .row:nth-child(1){
+    height: 320px;
+}
+
+header .col:nth-child(1){
+    color: white;
+    font-size: 38px;
+}
+
+header .col:nth-child(1){
+    color: white;
+    font-size: 38px;
+}
+
+header .col:nth-child(1) a{
+    top: 50px;
+    left: 20px;
+}
+
+header .col:nth-child(2) nav{
+    width: 100px;
+    top: 20px;
+}
+
+header .row:nth-child(1){
+    white-space: nowrap;
+    font-size: 52px;
+}
+
+header .row:nth-child(2) h1{
+    white-space: nowrap;
+    font-size: 52px;
+}
+
+header .row:nth-child(3) button{
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    background-color: orangered;
+    border: none;
+}
+
+header .row:nth-child(3) button:hover{
+    cursor: pointer;
+}
+
+header .row:nth-child(3) button:hover{
+    cursor: pointer;
+}
+
+header .row:nth-child(3) input{
+    height: 25%;
+    width: 35%;
+    border: none;
+}
+
+header .row:nth-child(3) {
+    padding-bottom: 50px;
+}
+
+article{
+    height: 550px;
+    background-color: rgb(236, 236, 236);
+}
+
+article h4{
+    text-transform: uppercase;
+}
+
+article .row .col .card{
+    height: 330px; 
+    width: 250px;
+    margin: 10px 0;
+}
+
+article .row .card-body h5{
+    text-transform: uppercase;
+}
+
+article .row .col:nth-child(1) .card .card-header{
+    min-height: 190px; 
+    background-image: url("./img/Australia.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article .row .col:nth-child(2) .card .card-header{
+    min-height: 190px; 
+    background-image: url("./img/SouthAmerica.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article .row .col:nth-child(3) .card .card-header{
+    min-height: 190px; 
+    background-image: url("./img/NorthAmerica.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article .row .col:nth-child(4) .card .card-header{
+    min-height: 190px; 
+    background-image: url("./img/Europe.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+aside{
+    height: 520px;
+}
+
+aside .card{
+    width: 300px;
+}
+
+aside .row .card-body h5{
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+aside .row:nth-child(3) h2{
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+aside .container .row:nth-child(4) button{
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: orangered;
+    border: none;
+}
+
+aside .row:nth-child(4) button:hover{
+    cursor: pointer;
+}
+
+aside .row:nth-child(4) input{
+    height: 25%;
+    width: 25%;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(236, 236, 236);
+}
+
+
+footer li{
+    margin: 0 10px;
+}
+
+footer a{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) { /* SM */
+    header .row:nth-child(3) input{
+        width: 65%;
+    }
+
+    article{
+        height: 1600px;
+    }
+
+    article .custom-container{
+        width: 400px;
+    }
+
+    aside{
+        height: 1000px;
+    }
+
+    aside .custom-container{
+        padding: 0 !important;
+        width: 300px;
+    }
+
+    aside .card{
+        height: 220px;
+        width: 200px;
+    }
+
+    aside .row:nth-child(4) input {
+        width: 65%;
+    }
+
+    footer .container .row div.col:nth-child(1){
+        height: 50px;
+        justify-content: center !important;
+        padding: 0;
+    }
+
+    footer .container .row div.col:nth-child(2){
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* MD */
+    header .row:nth-child(3) input{
+        width: 50%;
+    }
+
+    article{
+        height: 870px;
+    }
+
+    article .custom-container{
+        width: 720px;
+    }
+
+    aside{
+        height: 550px;
+    }
+
+    aside .custom-container{
+        padding: 0 !important;
+        width: 900px;
+    }
+
+    aside .card{
+        height: 220px;
+        width: 200px;
+    }
+
+    aside .row:nth-child(4) input {
+        width: 40%;
+    }
+
+    footer .container .row div.col:nth-child(1){
+        height: 50px;
+        justify-content: center !important;
+        padding: 0;
+    }
+
+    footer .container .row div.col:nth-child(2){
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {  /* LG */
+    article{
+        height: 870px;
+    }
+
+    article .custom-container{
+        width: 720px;
+    }
+
+    aside .card{
+        width: 250px;
+    }
+}
+
+
